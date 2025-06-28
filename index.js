@@ -8,8 +8,12 @@ for(let i=0;i<stringNames.length ;i++){
 }
 
 function countDown(number){
-for(let i=number;i>=0;i--){
-  console.log(i)
+  let i=number;
+  while( i>=0){
+    console.log(i)
+    i--
+  }
 }
-return countDown
-}
+
+countDown()
+
